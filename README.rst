@@ -2,7 +2,9 @@
 Hello world!
 ==============================================================================
 
-This is a test for delivering a README in the ReST test.
+This is a test for delivering a README in the ReST format.
+
+.. _section1:
 
 ------------------------------------------------------------------------------
 Section 1
@@ -14,9 +16,13 @@ Let's try some code:
 
    $ python -m SimpleHTTPServer 8888
 
+.. _section 11:
+
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Subsection 1.1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Let's try a link to :ref:`section <section1>` 1 above.
 
 To be continued...
 
